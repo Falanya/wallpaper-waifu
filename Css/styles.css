@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: gray;
+    color: white;
+}
+
+/*Xu li header*/
+.header {
+    width: 100%;
+    background-color: black;
+    padding: 10px 10px;
+    border-bottom: 2px solid white;
+    position: fixed;
+    z-index: 10;
+}
+
+.header .list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .list .logo i,
+.header .list .logo h4,
+.header .list .sign p {
+    display: inline;
+    float: left;
+}
+
+.header .list .logo {
+    width: 20%;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.header .list .search {
+    width: 60%;
+}
+
+.header .list .sign {
+    width: 20%;
+    font-size: 17px;
+}
+
+.header .list .logo h4 {
+    border-left: 2px solid gray;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.header .list .logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.header .list .sign p a {
+    text-decoration: none;
+    color: white;
+}
+
+.header .list .sign .sign_2 {
+    border-left: 2px solid gray;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.header .list .logo a:hover i {
+    color: gray;
+    transition: all 0.7s;
+}
+
+.header .list .logo h4 a:hover {
+    color: gray;
+    transition: all 0.7s;
+}
+
+.header .list .sign p a:hover {
+    color: bisque;
+    transition: all 0.7s;
+}
+
+/*Ket thuc header*/
+
+/*Xu li list hentai*/
+.list_hentai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.outline {
+    width: 80%;
+    background-color: black;
+    margin-top: 120px;
+    height: 3000;
+    padding: 20px;
+    border: 2px solid white;
+}
+.list_hentai .list_overview {
+    text-align: center;
+}
+.list_hentai .name_src {
+    text-align: center; 
+    margin-bottom: 25px;
+    margin-top: 20px;
+    border-top: 2px solid white;
+    padding-top: 20px;
+}
+.list_hentai img {
+    border: 3px solid gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.list_hentai .image_hentai i {
+    font-size: 50px;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    opacity: 0;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+.list_hentai .type_icon {
+    position: absolute;
+    width: 92%;
+    height: 86.5%;
+    padding: 25px;
+    top: 0px;
+    left: 0px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: rgba(109, 8, 192, 0.11);
+    opacity: 0;
+    text-align: center;
+}
+.list_hentai .type_icon h2 {
+    margin-top: 350px;
+}
+.list_hentai .type_icon h2,
+.list_hentai .type_icon h3 {
+    color:black;
+}
+.list_hentai .note .note__ {
+    bottom: 0px;
+}
+.list_hentai .item_hentai {
+    padding: 15px 15px;
+    border: 2px solid gray;
+    width: 100%;
+    position: relative;
+}
+.list_hentai .image_hentai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list_hentai .name_hentai h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+.list_hentai .board_hentai {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    padding-bottom: 25px;
+}
+.image_hentai:hover .type_icon,
+.image_hentai:hover i {
+    transition: all 0.7s;
+    opacity: 1;
+}
+.list_hentai .name_hentai h3 a {
+    text-decoration: none;
+    color: white;
+}
+.list_hentai .name_hentai h3 a:hover {
+    color: gray;
+    transition: all 0.7s;
+}
+/*Ket thuc list hentai*/
